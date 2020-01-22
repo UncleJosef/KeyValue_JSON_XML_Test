@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[T_DATA_KEY]
+(
+	[Id] INT NOT NULL PRIMARY KEY
+)

@@ -63,5 +63,16 @@
   <ItemGroup>
     <Build Include="TABLES\T_SOURCE.sql" />
     <Build Include="STORED PROCEDURIES\SP_INIT_SOURCE.sql" />
+    <Build Include="TABLES\T_JSON.sql" />
+    <Build Include="TABLES\T_TEST_RESULT.sql" />
+    <Build Include="TABLES\T_XML.sql" />
+    <Build Include="TABLES\T_DATA_HEAD.sql" />
+    <Build Include="TABLES\T_DATA_KEY.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Test_JSON_XML_KEYVALUETABLE_IN_MS SQL SERVER.refactorlog" />
   </ItemGroup>
 </Project>
