@@ -158,7 +158,7 @@ BEGIN
 					[STRING_DATA].value('/row[1]/STR[1]','nvarchar(5)') AS [STR], 
 					[STRING_DATA].value('/row[1]/STR1[1]','nvarchar(30)') AS [STR1], 
 					[STRING_DATA].value('/row[1]/STR2[1]','nvarchar(70)') AS [STR2] 
-				FROM T_JSON
+				FROM T_XML
 		--
 		INSERT [T_TEST_RESULT] ([TABLE_NAME], [OPERATION_NAME], [COUNT], [ATTEMPT], [NS])
 		VALUES(N'T_XML','SELECT', @ROWCOUNT, @ATTEMPT, DATEDIFF(mcs, @START, GETDATE()));
