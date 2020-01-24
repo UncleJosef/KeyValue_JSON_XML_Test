@@ -59,6 +59,9 @@
     <Folder Include="Properties" />
     <Folder Include="TABLES" />
     <Folder Include="STORED PROCEDURIES" />
+    <Folder Include="TABLES\FK" />
+    <Folder Include="TABLES\INDEXES" />
+    <Folder Include="RESULT" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="TABLES\T_SOURCE.sql" />
@@ -71,6 +74,9 @@
     <Build Include="TABLES\T_STANDART.sql" />
     <Build Include="TABLES\T_DATA_VALUE.sql" />
     <Build Include="TABLES\T_RESULT.sql" />
+    <Build Include="TABLES\FK\FK_T_DATA_VALUE_T_DATA_HEAD.sql" />
+    <Build Include="TABLES\FK\FK_T_DATA_VALUE_T_DATA_KEY.sql" />
+    <Build Include="TABLES\INDEXES\HEAD_KEY.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Test_JSON_XML_KEYVALUETABLE_IN_MS SQL SERVER.refactorlog" />
